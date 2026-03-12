@@ -2,8 +2,7 @@ import { useMemo } from "react";
 
 const METABASE_URL = "https://traditive-stanley-swindled.ngrok-free.dev";
 
-const TOKEN =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZSI6eyJkYXNoYm9hcmQiOjN9LCJwYXJhbXMiOnt9LCJleHAiOjE3NzM3NDM4MTAsImlhdCI6MTc3MzMxMTgwOX0.mzu1rSmYJoP-X4naZ-a1dhpxOT8aJhBeYmKz5Aq1skw";
+const TOKEN = ""; // Inserta tu token aquí
 
 export default function MetabaseDashboard({ darkMode }) {
   const embedUrl = useMemo(() => {
